@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout}"
+>
+<body class="d-flex flex-column h-100">
+<main class="flex-shrink-0">
+    <!-- Page Content-->
+    <section layout:fragment="body" class="py-5">
+        <div class="container">
+<!--            <form method="post" th:action="@{/news-articles/new}" th:object="${article}">-->
+<!--                <div class="form-row">-->
+<!--                    <div class="form-group col-md-6 mb-2">-->
+<!--                        <label for="title" class="mb-1 fs-6">Title</label>-->
+<!--                        <input-->
+<!--                                type="text"-->
+<!--                                class="form-control"-->
+<!--                                id="title"-->
+<!--                                name="title"-->
+<!--                                th:field="*{title}"-->
+<!--                                placeholder="Title"-->
+<!--                        >-->
+<!--                    </div>-->
+<!--                    <p th:if="${#fields.hasErrors('title')}" class="text-danger" th:errors="*{title}"></p>-->
+<!--                    <div class="form-group col-md-6 mb-2">-->
+<!--                        <label  for="content" class="mb-1 fs-6">Content</label>-->
+<!--                        <input-->
+<!--                                id="content"-->
+<!--                                name="content"-->
+<!--                                type="text"-->
+<!--                                class="form-control"-->
+<!--                                th:field="*{content}"-->
+<!--                                placeholder="Content"-->
+<!--                        >-->
+<!--                    </div>-->
+<!--                    <p th:if="${#fields.hasErrors('content')}" class="text-danger" th:errors="*{content}"></p>-->
+<!--                    <div class="form-group col-md-6 mb-2">-->
+<!--                        <label for="photoUrl" class="mb-1 fs-6">Photo Url</label>-->
+<!--                        <input-->
+<!--                                id="photoUrl"-->
+<!--                                name="photoUrl"-->
+<!--                                type="text"-->
+<!--                                class="form-control"-->
+<!--                                th:field="*{photoUrl}"-->
+<!--                                placeholder="Photo Url"-->
+<!--                        >-->
+<!--                    </div>-->
+<!--                    <p th:if="${#fields.hasErrors('photoUrl')}" class="text-danger" th:errors="*{photoUrl}"></p>-->
+<!--                    <hr>-->
+<!--                    <div class="form-group col-md-6 align-content-center d-inline mt-2">-->
+<!--                        <button class="btn btn-dark d-inline" type="submit">Submit changes</button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </form>-->
+            <h1>Edit form</h1>
+        </div>
+    </section>
+</main>
+</body>
+</html>
