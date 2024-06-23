@@ -49,6 +49,6 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v5
         with:
-          context: ./src
+          context: .
           push: true
           tags: leona10/racepulse:latest
